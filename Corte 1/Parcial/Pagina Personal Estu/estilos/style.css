@@ -1,0 +1,257 @@
+@charset "utf-8";
+
+body{
+    background: url('media/background2.jpg');
+}
+
+#hd-cabecera{
+    background-color:  #2A2B2E;
+    height: 150px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+
+#hd-cabecera h1{
+    padding-top: 20px;
+    color: #00c3ff;
+    font: bold 80px arial;
+}
+
+#hd-cabecera a{
+    text-decoration: none;
+}
+
+h3{
+    color: #00c3ff;
+    font: 30px arial;
+    align-self: center;
+}
+
+#nav-navegacion{
+    list-style: none;
+    background:  #2A2B2E;
+    padding: 0px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+#nav-navegacion li a{
+    text-decoration: none;  
+    font-size: 20px;
+    color: #26c9f1;
+    padding: 20px;
+    display: block;
+    border-radius: 30px;
+}
+
+#nav-navegacion li{
+    display: inline-block;
+    text-align: center;
+    background-color: #2A2B2E;
+}
+
+#nav-navegacion li a:hover{
+    background: #5A5A66;
+    color: #00c3ff;
+    border-radius: 5px;
+}
+
+
+#section-contenido{
+    max-width: 90%;
+    margin: auto;
+    background-color: #2A2B2E;
+    min-height: 600px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #67b1ee;
+}
+
+table{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table, th, td {
+    border: 1px solid #26c9f1;
+    background-color: #5A5A66;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+}
+
+#titulo-tabla{
+    color: #0a4a5e;
+    font-weight: bold;
+}
+
+/* Estilo para la clase "galeria" */
+.galeria {
+    display: flex; /* Usar flexbox para alinear las imágenes horizontalmente */
+    justify-content: center; /* Centrar horizontalmente las imágenes en la galería */
+    align-items: center; /* Centrar verticalmente las imágenes en la galería */
+    flex-wrap: wrap; /* Permitir que las imágenes se envuelvan en varias filas si es necesario */
+}
+
+/* Estilo para cada imagen dentro de la clase "galeria" */
+.galeria .imagen-pasatiempo {
+    width: 300px; /* Ajustar el tamaño de las imágenes */
+    height: auto; /* Mantener la proporción original */
+    margin: 10px; /* Espaciado entre las imágenes */
+    border: 2px solid #0a4a5e; /* Borde para resaltar las imágenes */
+    border-radius: 10px; /* Borde redondeado */
+}
+
+/* Estilo para las descripciones dentro de la clase "galeria" */
+.galeria figcaption {
+    text-align: center;
+    font-style: italic; /* Fuente en cursiva */
+    color: #67b1ee; /* Color de texto gris */
+    font-size: 20px; /* Tamaño de fuente */
+}
+
+#section-img img{
+    max-width: 300px;
+    border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: 3px 3px #00c3ff;
+}
+
+
+#article-1{
+    padding: 30px;
+}
+
+#article-2{
+    padding: 30px;
+    font-size: large;
+}
+
+#article-3{
+    padding: 30px;
+    font-size: 20px;
+}
+
+#article-4{
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 90%;
+    margin: auto;
+    border-radius: 8px;
+    opacity: 0.8;
+    color: #67b1ee;
+}
+
+#article-5{
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 90%;
+    margin: auto;
+    color: #67b1ee;
+}
+
+#li-projects{
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #00c3ff;
+}
+
+
+hr{
+    max-width: 90%;
+}
+
+#footer-redes{
+    background-color: #2A2B2E;
+    color: #67b1ee;
+    clear: both;
+    margin-top: 40px;
+    height: 160px;
+    border: 30px;
+    margin: auto;
+    max-width: 90%;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+img{
+    opacity: 0.4;
+}
+
+#footer-redes img{
+    float: none;
+}
+
+#article-4 img{
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 3px 3px #00c3ff;
+}
+
+#img-1{
+    grid-area: a;
+    width: 327px;
+}
+#img-2{
+    grid-area: b;
+    width: 65%;
+    float: right;
+    height: 490px;
+}
+#img-3{
+    grid-area: c;
+    width: 50%;
+    height: 331px;
+}
+#img-4{
+    grid-area: d;
+    width: 46%;
+    float: right;
+}
+
+
+#form-contacto{
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+#form-contacto input{
+    margin-bottom: 15px;
+    width: 90%;
+    margin-top: 5px;
+}
+#form-contacto textarea{
+    margin-bottom: 15px;
+    width: 90%;
+    margin-top: 5px;
+}
+
+#btn-input{
+    width: 30%;
+    font-weight: bold;
+    background-color: #67b1ee;
+    height: 40px;
+}
+
+.imagen-carrusel {
+    max-height: 300px; /* Altura máxima para las imágenes */
+    object-fit: cover; /* Ajustar la imagen para llenar el contenedor */
+    /* Otros estilos personalizados que desees aplicar */
+}

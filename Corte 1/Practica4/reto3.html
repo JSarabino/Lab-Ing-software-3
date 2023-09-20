@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mi Página Web</title>
+<link rel="stylesheet" href="reto3.css">
+</head>
+<body>
+<header>
+<h1>Mi Página Web</h1>
+<nav>
+<ul>
+<li><a href="#">Inicio</a></li>
+<li><a href="#">Acerca de</a></li>
+<li><a href="#">Contacto</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section>
+<h2>Bienvenidos</h2>
+<p>Esta es mi página web. Aquí encontrarás información sobre mí y mis
+proyectos.</p>
+<img src="imagen.jpg" alt="Imagen de ejemplo">
+</section>
+<section>
+<h2>Proyectos</h2>
+<p>Estos son algunos de mis proyectos:</p>
+<ul>
+<li>
+<h3>Proyecto 1</h3>
+<p>Descripción del proyecto.</p>
+<img src="imagen1.jpg" alt="Imagen 1">
+</li>
+<li>
+<h3>Proyecto 2</h3>
+<p>Descripción del proyecto.</p>
+<img src="imagen2.jpg" alt="Imagen 2">
+</li>
+<li>
+<h3>Proyecto 3</h3>
+<p>Descripción del proyecto.</p>
+<img src="imagen3.jpg" alt="Imagen 3">
+</li>
+</ul>
+</section>
+<section>
+<h2>Videos</h2>
+<p>Estos son algunos de mis videos:</p>
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TU_VIDEO_ID_AQUI" frameborder="0" allowfullscreen></iframe>
+</div>
+</section>
+</main>
+<footer>
+<p>Unicauca 2023 </p>
+</footer>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos generales */
+body {
+font-family: Arial, sans-serif;
+font-size: 16px;
+color: #333;
+}
+/* Estilos de la imagen */
+img {
+max-width: 100%;
+height: auto;
+display: block;
+margin: 0 auto;
+}
+/* Estilos del video */
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
